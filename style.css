@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: #fefefe;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 2em 1em;
+}
+.logo {
+    max-width: 120px;
+}
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f0f0f0;
+    margin-top: 2em;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gallery img {
+    max-width: 100px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: white;
+}
