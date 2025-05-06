@@ -1,38 +1,71 @@
 body {
-    font-family: sans-serif;
-    background-color: #fefefe;
-    color: #222;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  font-family: sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #222;
 }
+
 header {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 2em 1em;
+  text-align: center;
+  padding: 2em 1em;
+  background: #f0f0f0;
 }
+
 .logo {
-    max-width: 120px;
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1em;
 }
+
+h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #666;
+}
+
 main {
-    padding: 1em;
-    max-width: 800px;
-    margin: auto;
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
 }
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.2em;
+}
+
+.about ul {
+  list-style: disc;
+  padding-left: 1.2em;
+}
+
+.gallery-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.gallery-grid img {
+  width: 100%;
+  max-width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
 footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #f0f0f0;
-    margin-top: 2em;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-.gallery img {
-    max-width: 100px;
-    border: 1px solid #ccc;
-    padding: 4px;
-    background: white;
+  text-align: center;
+  padding: 1em;
+  background: #f0f0f0;
+  margin-top: 2em;
 }
